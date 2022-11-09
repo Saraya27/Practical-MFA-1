@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-around;
+    align-content: center;
+    
+}
+.header .header__logo{
+    max-height: 80px;
+    padding: 10px;
+}
+.header button{
+    max-height: 30px;
+    margin-left:20px;
+    background-color:#C05326;
+    padding-right:40px;
+    border-color: #C05326;
+    color:white;
+    margin-left:50px;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    padding:10px;
+}
+.header ul li{
+    padding: 10px;
+}
+.header ul li a{
+   text-decoration: none;
+}
+.hero{
+    background-image:url("header-bike.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-right: 200px;
+    color:white;
+    margin-top:20px;
+    padding-left:20px; 
+}
+.btn1{    
+    color:white;
+    background-color:#C05326;
+}
+.alert{
+    color:black;
+    background-color:#f7eae4;
+    padding-top :20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-style:solid;
+    border-width:0px 0px 0px 4px;
+    border-color: #C05326;
+    margin-right:200px;   
+}
+.article{
+    
+   display:flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+   border:2px solid#e4e4e4;
+   margin:10px;
+   padding:10px;
+    
+}
+
+.content{
+    display:flex;
+}
+
